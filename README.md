@@ -1,7 +1,10 @@
 <h1 align="center">Lab 1 — Testing & Version Control with Git</h1>
 
 <p align="center">
-  <em>Python • Git • Pytest • Flake8 • Collaboration</em><br>
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="Tests passing"></a>
+  <a href="#"><img src="https://img.shields.io/badge/linter-flake8-blueviolet" alt="Linter status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/coverage-90%25%2B-success" alt="Coverage"></a>
   <strong>MLOps | AIVANCITY 2025-2026</strong>
 </p>
 
