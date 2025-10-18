@@ -4,6 +4,7 @@ def add(*args):
 
 
 def substract(*args):
+    # substract all arguments from the first one
     first = args[0]
     for arg in args[1:]:
         first -= arg
