@@ -44,7 +44,9 @@ def main():
         except ValueError as exc:
             print(f"Error: {exc}")
 
-        again = input("Do you want to perform another calculation? (yes/no): ").strip().lower()
+        again = input(
+            "Do you want to perform another calculation? (yes/no): "
+        ).strip().lower()
         if again not in {"y", "yes"}:
             print("Goodbye!")
             break
