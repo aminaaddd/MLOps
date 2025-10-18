@@ -62,7 +62,7 @@ python3 -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 ```
 
-<h3 style="color:#999"> Install Dependencies</h3>
+## Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ---
 
 
-<h3 style="color:#999"> Run the calculator</h3>
+## Run the calculator
 ```bash
 python src/calculator.py     # or python3 src/calculator.py
 ```
@@ -78,7 +78,7 @@ python src/calculator.py     # or python3 src/calculator.py
 ---
 
 
-<h3 style="color:#999"> Run all tests</h3>
+## Run all tests
 ```bash
 pytest
 ```
@@ -86,7 +86,7 @@ pytest
 ---
 
 
-<h3 style="color:#999"> Run the linter</h3>
+## Run the linter
 ```bash
 flake8
 ```
