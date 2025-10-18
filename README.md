@@ -1,11 +1,14 @@
 <h1 align="center">Lab 1 — Testing & Version Control with Git</h1>
 
 <p align="center">
-  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python version"></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python%2B-blue" alt="Python"></a>
   <a href="#"><img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="Tests passing"></a>
   <a href="#"><img src="https://img.shields.io/badge/linter-flake8-blueviolet" alt="Linter status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/coverage-90%25%2B-success" alt="Coverage"></a>
-  <strong>MLOps | AIVANCITY 2025-2026</strong>
+</p>
+
+<p align="center">
+  <em>Python • Git • Pytest • Flake8 • Collaboration</em><br>
+  <strong>MLOps | AIVANCITY 2025–2026</strong>
 </p>
 
 ---
@@ -47,34 +50,48 @@ Lab1/
 ```
 
 ## Setup Instructions 
-## 1. Clone the Repository
+<h3 style="color:#999"> Clone the Repository</h3>
 ```bash
 git clone https://github.com/aminaaddd/Testing_versionControl.git
 cd Testing_versionControl/Lab1
 ```
-## 2. Virtual Environment
+
+<h3 style="color:#999"> Virtual Environment</h3>
 ```bash
 python3 -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 ```
-## 3. Install Dependencies
+
+<h3 style="color:#999"> Install Dependencies</h3>
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the calculator
+---
+
+
+<h3 style="color:#999"> Run the calculator</h3>
 ```bash
 python src/calculator.py     # or python3 src/calculator.py
 ```
 
-## Run all tests
+---
+
+
+<h3 style="color:#999"> Run all tests</h3>
 ```bash
 pytest
 ```
 
-## Run the linter
+---
+
+
+<h3 style="color:#999"> Run the linter</h3>
 ```bash
 flake8
 ```
+
+---
+
 
 
