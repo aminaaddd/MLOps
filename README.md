@@ -50,13 +50,14 @@ Lab1/
 ```
 
 ## Setup Instructions 
-<h3 style="color:#999"> Clone the Repository</h3>
+
+## Clone the Repository
 ```bash
 git clone https://github.com/aminaaddd/Testing_versionControl.git
 cd Testing_versionControl/Lab1
 ```
 
-<h3 style="color:#999"> Virtual Environment</h3>
+## Virtual Environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
